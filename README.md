@@ -1,5 +1,3 @@
-# IPL-Analytics-Dashboard
-
 # 🏏 IPL Analytics Dashboard (2008–2023)
 
 This project presents a comprehensive analysis of the Indian Premier League (IPL) from 2008 to 2023. Using **Python**, **Jupyter Notebook**, and **Power BI**, we explore trends, top players, and team performances through visual insights.
@@ -88,7 +86,14 @@ Edit
 ### 1. Run Python Analysis
 
 - Open `ipl_analysis.ipynb` in Jupyter Notebook
-- Ensure `matches.csv` and `deliveries.csv` are in the `data/` folder
+- Ensure the following cleaned CSV files are in the `data/` folder:
+  - `cleaned_matches.csv`
+  - `top_batsmen.csv`
+  - `top_bowlers.csv`
+  - `toss_analysis.csv`
+  - `venue_avg_scores.csv`
+  - `avg_score_season.csv`
+
 - Run the notebook to explore and generate visuals
 
 ### 2. Explore Power BI Dashboard
