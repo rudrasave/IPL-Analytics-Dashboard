@@ -157,11 +157,9 @@ Clone the project
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
-
 - [Notebook Walkthrough](Notebooks/ipl(08-24)-checkpoint.ipynb)  
 - [Visual Exports](visuals/)  
-- [Dashboard File](dashboard/IPL_Dashboard.pbix)  
+- [Dashboard File](DATA IPL 2008-2024.pbit)  
 
 
 ## Running Tests
