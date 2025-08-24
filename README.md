@@ -246,7 +246,7 @@ A: Yes—use the notebook and visuals in `/visuals`.
 ## Authors
 
 - [Github](https://github.com/rudrasave)  
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin-id)  
+- [LinkedIn](https://www.linkedin.com/in/rudra-save-a90749358/)  
 
 ## Feedback
 
