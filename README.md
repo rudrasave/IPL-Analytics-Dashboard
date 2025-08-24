@@ -159,7 +159,7 @@ Clone the project
 
 [Documentation](https://linktodocumentation)
 
-- [Notebook Walkthrough](notebooks/ipl_analysis.ipynb)  
+- [Notebook Walkthrough](Notebooks/ipl(08-24)-checkpoint.ipynb)  
 - [Visual Exports](visuals/)  
 - [Dashboard File](dashboard/IPL_Dashboard.pbix)  
 
