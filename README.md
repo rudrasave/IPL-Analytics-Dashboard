@@ -159,7 +159,7 @@ Clone the project
 
 - [Notebook Walkthrough](Notebooks/ipl(08-24)-checkpoint.ipynb)  
 - [Visual Exports](visuals/)  
-- [Dashboard File](DATA IPL 2008-2024.pbit)  
+- [Dashboard File](dashboard/)  
 
 
 ## Running Tests
