@@ -1,125 +1,254 @@
-# 🏏 IPL Analytics Dashboard (2008–2023)
 
-This project presents a comprehensive analysis of the Indian Premier League (IPL) from 2008 to 2023. Using **Python**, **Jupyter Notebook**, and **Power BI**, we explore trends, top players, and team performances through visual insights.
+# 🏏IPL Analytics Dashboard (2008–2023)
 
----
+A data-driven exploration of the Indian Premier League using Python (Pandas, Matplotlib), Jupyter Notebook, and Power BI. Insights include top performers, venue trends, toss impact, and win types—delivered via an interactive dashboard.
 
-## 📌 Objectives
 
-- Analyze ball-by-ball and match-level data from IPL
-- Identify top performers: batsmen, bowlers, venues
-- Study match-winning trends and toss impact
-- Design an interactive, visually rich Power BI dashboard
+##  Table of Contents
+- [Introduction](#-ipl-analytics-dashboard-20082023)
+- [Badges](#badges)
+- [Demo](#demo)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Usage / Examples](#usage--examples)
+- [Installation](#installation)
+- [Run Locally](#run-locally)
+- [Dataset Source](#dataset-source)
+- [Key Insights](#key-insights)
+- [Documentation](#documentation)
+- [Running Tests](#running-tests)
+- [Roadmap](#roadmap)
+- [Optimizations](#optimizations)
+- [Contributing](#contributing)
+- [FAQ](#faq)
+- [Acknowledgements](#acknowledgements)
+- [Authors](#authors)
+- [Feedback](#feedback)
 
----
 
-## 🛠️ Tools & Technologies
+## Badges
 
-- Python (Pandas, Matplotlib, Seaborn)
-- Jupyter Notebook
-- Power BI Desktop
-- Git & GitHub
+- Tech Stack 
+    ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+    ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white)
+    ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black)
 
----
+- License + Contributions 
+    [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+    ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)
 
-## 📁 Project Structure
+ - GitHub Repo Stats
+    ![Stars](https://img.shields.io/github/stars/<rudrasave>/IPL-Analytics-Dashboard?style=for-the-badge)
+    ![Forks](https://img.shields.io/github/forks/<rudrasave>/IPL-Analytics-Dashboard?style=for-the-badge)
+    ![Issues](https://img.shields.io/github/issues/<rudrasave>/IPL-Analytics-Dashboard?style=for-the-badge)
 
+
+## Demo
+
+- **Dashboard** (Power BI): `dashboard/IPL_Dashboard.pbix`  
+- **Screenshot:** `dashboard/dashboard_screenshot.png`  
+
+
+
+## Features
+
+- Analyze **ball-by-ball** and **match-level** data (2008–2023)  
+- Identify **top batsmen & bowlers**  
+- **Venue trends** (high-scoring grounds, chasing vs. defending)  
+- **Toss impact** and **win-type distributions**  
+- Reproducible **Python notebook** + **Power BI** dashboard  
+
+
+## Project Structure
+```plaintext
 IPL-Analytics-Dashboard/
 ├── data/
-│ ├── matches.csv
-│ └── deliveries.csv
+│   ├── matches.csv
+│   └── deliveries.csv
 ├── notebooks/
-│ └── ipl_analysis.ipynb
+│   └── ipl_analysis.ipynb
 ├── dashboard/
-│ ├── IPL_Dashboard.pbix
-│ └── dashboard_screenshot.png
+│   ├── IPL_Dashboard.pbix
+│   └── dashboard_screenshot.png
 ├── visuals/
-│ ├── top_batsmen.png
-│ ├── toss_win_rate.png
-│ ├── win_type_distribution.png
-│ └── venue_performance.png
+│   ├── top_batsmen.png
+│   ├── toss_win_rate.png
+│   ├── win_type_distribution.png
+│   └── venue_performance.png
 └── README.md
 
-yaml
-Copy
-Edit
+```
+
+## Usage/Examples
+
+- Run Python Analysis
+``` 
+Open `notebooks/ipl_analysis.ipynb` in Jupyter.
+```
+
+- Ensure these cleaned CSVs are in `data/`:
+```
+   - cleaned_matches.csv  
+   - top_batsmen.csv  
+   - top_bowlers.csv  
+   - toss_analysis.csv  
+   - venue_avg_scores.csv  
+   - avg_score_season.csv 
+   ```
+
+- Run cells
+``` 
+Run cells to **explore, transform, and export visuals** to `/visuals`.
+```
+- Explore Power BI Dashboard
+```
+1. Open `dashboard/IPL_Dashboard.pbix` in Power BI Desktop.  
+2. Interact with **filters**, **slicers**, and **pages** to explore players, teams, and seasons.
+```
+
+
+## Installation
+- Clone
+```
+git clone https://github.com/<your-username>/
+
+IPL-Analytics-Dashboard.git
+
+cd IPL-Analytics-Dashboard 
+```
+
+-  Create venv
+
+```
+# Windows: .venv\Scripts\activate
+# macOS/Linux: source .venv/bin/activate
+
+```
+
+- Install Python dependencies
+```
+pip install -r requirements.txt
+
+```
+## Run Locally
+
+Clone the project
+
+```bash
+  jupyter notebook notebooks/ipl_analysis.ipynb
+```
+
+
+
+
+## Dataset Source
+
+- Base dataset: **Kaggle – IPL Complete Dataset (2008–2020)**  
+- Extended manually to cover seasons up to **2023**  
+
+➡️ Place raw CSVs in `data/`. Cleaned outputs are generated by the notebook.
+
+## Key Insights
+
+- **MS Dhoni** and **Virat Kohli** remain among the top 5 consistent run scorers.  
+- **Toss winners** won ~52% of matches → marginal advantage.  
+- **Chinnaswamy** and **Wankhede** are high-scoring venues.  
+- **Chasing** under lights performs better at many grounds.  
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+- [Notebook Walkthrough](notebooks/ipl_analysis.ipynb)  
+- [Visual Exports](visuals/)  
+- [Dashboard File](dashboard/IPL_Dashboard.pbix)  
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+To run tests, run the following command:
+
+```bash
+python tests/schema_check.py
+```
+
 
 ---
 
-## 📊 Sample Visuals
+And then in your repo, just create a simple file `tests/schema_check.py` with this content (so the command actually works):
 
-### 🔹 Top 10 Batsmen
+```python
+import pandas as pd
 
-![Top Batsmen](visuals/top_batsmen.png)
+matches = pd.read_csv('data/matches.csv')
+deliveries = pd.read_csv('data/deliveries.csv')
 
----
+assert {'id','season','team1','team2'}.issubset(matches.columns)
+assert {'match_id','over','ball','batsman','bowler'}.issubset(deliveries.columns)
 
-### 🔹 Toss Impact on Match Results
+print("✅ Basic schema OK")
+```
+## Roadmap
 
-![Toss Win Rate](visuals/toss_win_rate.png)
 
----
+- [ ] Add **player form** and **rolling averages**  
+- [ ] Integrate **fielding metrics**  
+- [ ] Publish as a **Streamlit** mini-app  
+- [ ] Power BI theme + DAX optimization  
+- [ ] Automate **data updates** for new seasons  
 
-### 🔹 Win by Runs vs Wickets
+## Optimizations
 
-![Win Type](visuals/win_type_distribution.png)
+- Cached intermediate CSVs for faster reloads  
+- Pre-aggregations for Power BI (season, venue, player)  
+- Consistent **date/season normalization**  
+- Clean **DAX measures** for stable visuals  
 
----
+## Contributing
 
-### 🔹 Top Performing Venues
+Contributions are always welcome!
 
-![Venue](visuals/venue_performance.png)
+    1. Fork the repo  
+    2. Create a feature branch  
+    3. Open a PR with a clear description + screenshots (if UI)  
 
----
+## FAQ
 
-## 🔬 Key Insights
+#### 1. Which seasons are covered?
 
-- MS Dhoni and Virat Kohli are among the top 5 consistent run scorers.
-- Toss winners won the match **~52% of the time**, showing marginal advantage.
-- Chinnaswamy and Wankhede Stadiums are high-scoring grounds.
-- Teams chase better under lights in most stadiums.
+A: 2008–2023 (base Kaggle 2008–2020 + manual extension).  
 
----
+#### 2. Do I need Power BI Pro?
 
-## ▶️ How to Use
+A: No for local Desktop. Pro only if you publish/share on the Power BI Service. 
 
-### 1. Run Python Analysis
+#### 3.  Can I use only Python outputs?
 
-- Open `ipl_analysis.ipynb` in Jupyter Notebook
-- Ensure the following cleaned CSV files are in the `data/` folder:
-  - `cleaned_matches.csv`
-  - `top_batsmen.csv`
-  - `top_bowlers.csv`
-  - `toss_analysis.csv`
-  - `venue_avg_scores.csv`
-  - `avg_score_season.csv`
+A: Yes—use the notebook and visuals in `/visuals`.
 
-- Run the notebook to explore and generate visuals
+.  
 
-### 2. Explore Power BI Dashboard
 
-- Open `IPL_Dashboard.pbix` in Power BI Desktop
-- Interact with visuals and filters
+## Acknowledgements
 
----
 
-## 📦 Dataset Source
+- [Kaggle IPL Dataset (2008–2020)](https://www.kaggle.com/datasets/nowke9/ipldata) – base dataset  
+- [Pandas Documentation](https://pandas.pydata.org/docs/) – data analysis  
+- [Matplotlib Documentation](https://matplotlib.org/stable/users/index.html) – visualization  
+- [Power BI Community](https://community.powerbi.com/) – dashboard best practices  
 
-Sourced from Kaggle:  
-[IPL Complete Dataset (2008–2020)](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
+## Authors
 
-Manually extended to cover seasons up to 2023.
+- [Github](https://github.com/rudrasave)  
+- [LinkedIn](https://www.linkedin.com/in/your-linkedin-id)  
 
----
+## Feedback
 
-## 👨‍💻 Author
-
-**Rudra Save**  
-📫 [Connect on LinkedIn](https://www.linkedin.com)  
-📁 [Visit My GitHub Portfolio](https://github.com/)
-
----
-
-## ⭐ Show Some Love
-
-If you like this project, please ⭐ the repo and share your feedback!
+💡 Have ideas or spot issues? Open a GitHub **Issue** or start a **Discussion**.  
+⭐ If this project helped you, please star the repo!  
