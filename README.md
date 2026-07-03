@@ -1,5 +1,5 @@
 
-# 🏏IPL Analytics Dashboard (2008–2023)
+<!-- # 🏏IPL Analytics Dashboard (2008–2023)
 
 A data-driven exploration of the Indian Premier League using Python (Pandas, Matplotlib), Jupyter Notebook, and Power BI. Insights include top performers, venue trends, toss impact, and win types—delivered via an interactive dashboard.
 
@@ -249,4 +249,273 @@ A: Yes—use the notebook and visuals in `/visuals`.
 ## Feedback
 
 💡 Have ideas or spot issues? Open a GitHub **Issue** or start a **Discussion**.  
-⭐ If this project helped you, please star the repo!  
+⭐ If this project helped you, please star the repo!  -->
+
+# 🏏 IPL Performance Analytics Dashboard
+
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+An interactive **Business Intelligence dashboard** built using **Power BI, DAX, Power Query, and Python** to analyze historical Indian Premier League (IPL) data from **2008–2023**. The project transforms raw cricket datasets into meaningful business insights through KPI reporting, interactive visualizations, and trend analysis.
+
+---
+
+# 📌 Overview
+
+The IPL Performance Analytics Dashboard demonstrates the complete Business Intelligence lifecycle—from data collection and transformation to dashboard development and insight generation.
+
+Using historical IPL match and ball-by-ball datasets, the dashboard enables users to analyze player performance, venue statistics, season trends, match outcomes, and toss impact through interactive reports.
+
+This project showcases practical skills in:
+
+- Business Intelligence
+- Dashboard Development
+- Data Cleaning
+- Data Modeling
+- DAX Calculations
+- KPI Reporting
+- Data Visualization
+
+---
+
+# 🎯 Business Problem
+
+IPL generates thousands of match records every season, making it difficult to manually identify player performance trends, venue statistics, and winning patterns.
+
+Traditional spreadsheets cannot efficiently answer questions such as:
+
+- Who are the highest run scorers?
+- Which bowlers consistently perform well?
+- Which venues produce the highest scores?
+- Does winning the toss significantly influence match outcomes?
+- How has the IPL evolved over multiple seasons?
+
+The objective of this project is to convert raw cricket datasets into an interactive Business Intelligence dashboard that enables quick, data-driven decision making.
+
+---
+
+# 💡 Solution
+
+The dashboard provides a centralized analytical platform that allows users to:
+
+- Analyze batting performance across IPL seasons
+- Evaluate bowling statistics
+- Compare venue performance
+- Track season-wise growth
+- Measure toss impact on winning probability
+- Visualize match outcome distributions
+- Explore interactive KPIs using Power BI
+
+---
+
+# 📊 Dashboard Preview
+
+![Dashboard](visuals/dashboard-overview.png)
+
+---
+
+# 📈 Key Performance Indicators (KPIs)
+
+The dashboard provides interactive KPIs including:
+
+- 🏏 Total IPL Matches
+- 📅 Season-wise Match Trends
+- 👤 Top Run Scorers
+- 🎯 Top Wicket Takers
+- 🏟 High Scoring Venues
+- 🪙 Toss Win Percentage
+- 📊 Match Result Distribution
+- 📈 Historical Performance Trends
+
+---
+
+# 💡 Key Business Insights
+
+Analysis of IPL data revealed several meaningful insights:
+
+- Virat Kohli remains the highest run scorer across IPL history.
+- Winning the toss provides only a marginal advantage (~51%), indicating team performance has greater influence on match outcomes.
+- Bengaluru and Mumbai consistently host high-scoring matches.
+- Teams chasing targets have historically won slightly more matches than teams defending totals.
+- IPL has experienced steady expansion, reflected by the increasing number of matches each season.
+
+---
+
+# 🏗 Business Intelligence Workflow
+
+![Architecture](visuals/architecture.png)
+
+The dashboard follows a standard Business Intelligence workflow:
+
+
+Historical IPL Dataset
+↓
+Power Query
+↓
+Data Cleaning
+↓
+Data Modeling
+↓
+DAX Measures
+↓
+Power BI Dashboard
+↓
+Business Insights
+
+
+---
+
+# 📊 Dashboard Features
+
+## 📈 Season Trend Analysis
+
+![Season Trend](visuals/season-trend.png)
+
+Visualizes the number of IPL matches conducted each season, highlighting tournament growth over time.
+
+---
+
+## 👤 Top Run Scorers
+
+![Top Run Scorers](visuals/top-run-scorers.png)
+
+Ranks the highest run-scoring batsmen across all IPL seasons.
+
+---
+
+## 🎯 Top Wicket Takers
+
+![Top Wicket Takers](visuals/top-wicket-takers.png)
+
+Compares leading bowlers based on total wickets taken.
+
+---
+
+## 🏟 High Scoring Venues
+
+![High Scoring Venues](visuals/high-scoring-venues.png)
+
+Highlights venues that consistently produce high-scoring matches.
+
+---
+
+## 🪙 Toss Impact Analysis
+
+![Toss Impact](visuals/toss-impact-analysis.png)
+
+Analyzes whether winning the toss significantly influences match outcomes.
+
+---
+
+## 📊 Match Result Distribution
+
+![Match Result Distribution](visuals/match-result-distribution.png)
+
+Displays the proportion of matches won by runs versus wickets.
+
+---
+
+# 💻 Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Dashboard | Power BI |
+| Data Transformation | Power Query |
+| Calculations | DAX |
+| Programming | Python |
+| Data Analysis | Pandas |
+| Development | Jupyter Notebook |
+| Dataset | IPL Historical Dataset (2008–2023) |
+
+---
+
+# 📁 Repository Structure
+
+
+IPL-Analytics-Dashboard/
+
+├── data/
+│ ├── matches.csv
+│ └── deliveries.csv
+│
+├── notebooks/
+│ └── IPL_Analytics.ipynb
+│
+├── visuals/
+│ ├── dashboard-overview.png
+│ ├── season-trend.png
+│ ├── top-run-scorers.png
+│ ├── top-wicket-takers.png
+│ ├── high-scoring-venues.png
+│ ├── toss-impact-analysis.png
+│ ├── match-result-distribution.png
+│ └── architecture.png
+│
+├── IPL Analytics Dashboard.pbix
+├── README.md
+├── requirements.txt
+└── LICENSE
+
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+- Power BI Desktop
+- Python 3.10+
+- Jupyter Notebook
+
+Install required libraries:
+
+```bash
+pip install pandas matplotlib jupyter
+Running the Project
+Clone Repository
+git clone https://github.com/rudrasave/IPL-Analytics-Dashboard.git
+
+cd IPL-Analytics-Dashboard
+Open Notebook
+jupyter notebook notebooks/IPL_Analytics.ipynb
+Open Dashboard
+
+Open
+
+IPL Analytics Dashboard.pbix
+
+using Microsoft Power BI Desktop.
+
+📈 Business Impact
+
+This dashboard demonstrates practical Business Intelligence capabilities including:
+
+KPI Development
+Interactive Dashboard Design
+Data Cleaning & Transformation
+DAX-Based Analytics
+Sports Performance Analysis
+Executive Reporting
+Data-Driven Decision Making
+🔮 Future Enhancements
+Player performance prediction using Machine Learning
+Live IPL data integration
+Advanced DAX measures
+Drill-through reports
+Mobile dashboard optimization
+Automated data refresh
+📜 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Rudra Save
+
+📧 rudrasave1709@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/rudra-save-a90749358/
+
+💻 GitHub: https://github.com/rudrasave
