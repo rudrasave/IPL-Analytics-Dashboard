@@ -311,6 +311,7 @@ The dashboard provides a centralized analytical platform that allows users to:
 ---
 
 # 📊 Dashboard Preview
+The dashboard provides an interactive overview of IPL performance metrics including player statistics, venue analysis, match trends, and toss impact across multiple seasons.
 
 ![Dashboard](visuals/dashboard-overview.png)
 
@@ -331,7 +332,18 @@ The dashboard provides interactive KPIs including:
 
 ---
 
+# 🎯 Dashboard Objectives
+
+The dashboard was designed to help users:
+
+- Analyze player and team performance across seasons.
+- Compare venue statistics and match trends.
+- Evaluate toss impact on match outcomes.
+- Monitor season-wise IPL growth.
+- Generate interactive insights using Power BI.
 # 💡 Key Business Insights
+
+---
 
 Analysis of IPL data revealed several meaningful insights:
 
@@ -350,24 +362,32 @@ Analysis of IPL data revealed several meaningful insights:
 The dashboard follows a standard Business Intelligence workflow:
 
 
+```text
 Historical IPL Dataset
-↓
+        │
+        ▼
 Power Query
-↓
+        │
+        ▼
 Data Cleaning
-↓
+        │
+        ▼
 Data Modeling
-↓
+        │
+        ▼
 DAX Measures
-↓
+        │
+        ▼
 Power BI Dashboard
-↓
+        │
+        ▼
 Business Insights
+```
 
 
 ---
 
-# 📊 Dashboard Features
+# 📊 Interactive Dashboard Components
 
 ## 📈 Season Trend Analysis
 
@@ -433,33 +453,31 @@ Displays the proportion of matches won by runs versus wickets.
 
 # 📁 Repository Structure
 
-
+```text
 IPL-Analytics-Dashboard/
-
+│
 ├── data/
-│ ├── matches.csv
-│ └── deliveries.csv
+│   ├── matches.csv
+│   └── deliveries.csv
 │
 ├── notebooks/
-│ └── IPL_Analytics.ipynb
+│   └── IPL_Analytics.ipynb
 │
 ├── visuals/
-│ ├── dashboard-overview.png
-│ ├── season-trend.png
-│ ├── top-run-scorers.png
-│ ├── top-wicket-takers.png
-│ ├── high-scoring-venues.png
-│ ├── toss-impact-analysis.png
-│ ├── match-result-distribution.png
-│ └── architecture.png
+│   ├── dashboard-overview.png
+│   ├── season-trend.png
+│   ├── top-run-scorers.png
+│   ├── top-wicket-takers.png
+│   ├── high-scoring-venues.png
+│   ├── toss-impact-analysis.png
+│   ├── match-result-distribution.png
+│   └── architecture.png
 │
 ├── IPL Analytics Dashboard.pbix
 ├── README.md
 ├── requirements.txt
 └── LICENSE
-
-
----
+```
 
 # 🚀 Getting Started
 
@@ -471,41 +489,75 @@ IPL-Analytics-Dashboard/
 
 Install required libraries:
 
+# 🚀 Getting Started
+
+## Prerequisites
+
+- Power BI Desktop
+- Python 3.10+
+- Jupyter Notebook
+
+### Install Dependencies
+
 ```bash
 pip install pandas matplotlib jupyter
-Running the Project
-Clone Repository
-git clone https://github.com/rudrasave/IPL-Analytics-Dashboard.git
+```
 
+---
+
+## Clone Repository
+
+```bash
+git clone https://github.com/rudrasave/IPL-Analytics-Dashboard.git
 cd IPL-Analytics-Dashboard
-Open Notebook
+```
+
+---
+
+## Run Notebook
+
+```bash
 jupyter notebook notebooks/IPL_Analytics.ipynb
-Open Dashboard
+```
+
+---
+
+## Open Dashboard
 
 Open
 
+```text
 IPL Analytics Dashboard.pbix
+```
 
-using Microsoft Power BI Desktop.
+using **Microsoft Power BI Desktop**.
 
-📈 Business Impact
+# 📈 Business Impact
 
-This dashboard demonstrates practical Business Intelligence capabilities including:
+This project demonstrates practical Business Intelligence capabilities including:
 
-KPI Development
-Interactive Dashboard Design
-Data Cleaning & Transformation
-DAX-Based Analytics
-Sports Performance Analysis
-Executive Reporting
-Data-Driven Decision Making
-🔮 Future Enhancements
-Player performance prediction using Machine Learning
-Live IPL data integration
-Advanced DAX measures
-Drill-through reports
-Mobile dashboard optimization
-Automated data refresh
+- KPI Development
+- Dashboard Design
+- Power Query Transformations
+- Data Modeling
+- DAX Calculations
+- Sports Analytics
+- Executive Reporting
+- Data-Driven Decision Making
+
+---
+
+# 🔮 Future Enhancements
+
+- Live IPL API integration
+- Predictive player performance using Machine Learning
+- Advanced DAX calculations
+- Drill-through dashboard pages
+- Mobile-optimized dashboard
+- Automated data refresh pipeline
+
+---
+
 📜 License
 
 This project is licensed under the MIT License.
