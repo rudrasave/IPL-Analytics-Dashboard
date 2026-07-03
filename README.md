@@ -358,7 +358,7 @@ Analysis of IPL data revealed several meaningful insights:
 
 # 🏗 Business Intelligence Workflow
 
-![Architecture](visuals/architecture.png)
+![Architecture](visuals/iplarchitecture.png)
 
 The dashboard follows a standard Business Intelligence workflow:
 
