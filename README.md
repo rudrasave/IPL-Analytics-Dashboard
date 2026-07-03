@@ -311,6 +311,7 @@ The dashboard provides a centralized analytical platform that allows users to:
 ---
 
 # 📊 Dashboard Preview
+
 The dashboard provides an interactive overview of IPL performance metrics including player statistics, venue analysis, match trends, and toss impact across multiple seasons.
 
 ![Dashboard](visuals/dashboard-overview.png)
@@ -558,16 +559,22 @@ This project demonstrates practical Business Intelligence capabilities including
 
 ---
 
-📜 License
+---
+
+# 📜 License
 
 This project is licensed under the MIT License.
 
-👨‍💻 Author
+---
 
-Rudra Save
+# 👨‍💻 Author
 
-📧 rudrasave1709@gmail.com
+**Rudra Save**
 
-🔗 LinkedIn: https://www.linkedin.com/in/rudra-save-a90749358/
+📧 Email: rudrasave1709@gmail.com
 
-💻 GitHub: https://github.com/rudrasave
+🔗 LinkedIn:
+https://www.linkedin.com/in/rudra-save-a90749358/
+
+💻 GitHub:
+https://github.com/rudrasave
